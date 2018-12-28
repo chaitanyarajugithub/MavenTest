@@ -17,6 +17,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
@@ -32,7 +33,7 @@ public class AppTest {
   }
   @BeforeMethod
   public void adminlogin() throws InterruptedException {
-	  driver=new ChromeDriver();
+	  driver=new HtmlUnitDriver();
 	  driver.get("http://localhost:9090/petclinic/");
 	  driver.manage().window().maximize();
   }
