@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Owner Added success]]>
+    </line>
+  </reporter-output>
+  <suite name="MainTestcase.AppTest" duration-ms="36992" started-at="2018-12-28T06:16:58Z" finished-at="2018-12-28T06:17:35Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="36992" started-at="2018-12-28T06:16:58Z" finished-at="2018-12-28T06:17:35Z">
+      <class name="MainTestcase.AppTest">
+        <test-method status="PASS" signature="Generate()[pri:0, instance:MainTestcase.AppTest@61a485d2]" name="Generate" is-config="true" duration-ms="665" started-at="2018-12-28T06:16:58Z" finished-at="2018-12-28T06:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate -->
+        <test-method status="PASS" signature="adminlogin()[pri:0, instance:MainTestcase.AppTest@61a485d2]" name="adminlogin" is-config="true" duration-ms="6268" started-at="2018-12-28T06:16:59Z" finished-at="2018-12-28T06:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:MainTestcase.AppTest@61a485d2]" name="Test1" duration-ms="28793" started-at="2018-12-28T06:17:05Z" description="AddOwnerandpet" finished-at="2018-12-28T06:17:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Owner Added success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:MainTestcase.AppTest@61a485d2]" name="afterMethod" is-config="true" duration-ms="1254" started-at="2018-12-28T06:17:34Z" finished-at="2018-12-28T06:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- MainTestcase.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- MainTestcase.AppTest -->
+</testng-results>
