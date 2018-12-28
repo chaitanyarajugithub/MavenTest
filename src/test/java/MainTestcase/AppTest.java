@@ -33,7 +33,7 @@ public class AppTest {
   }
   @BeforeMethod
   public void adminlogin() throws InterruptedException {
-	  driver=new HtmlUnitDriver();
+	  driver=new ChromeDriver();
 	  driver.get("http://localhost:9090/petclinic/");
 	  driver.manage().window().maximize();
   }
